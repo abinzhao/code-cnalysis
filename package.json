@@ -1,0 +1,37 @@
+{
+  "name": "code-cnalysis",
+  "version": "1.0.0",
+  "description": "代码分析工具,扫描分析你的typescript代码",
+  "main": "./api/index.js",
+  "module": "./api/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ca": "./cli/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abinzhao/code-cnalysis.git"
+  },
+  "keywords": [],
+  "author": "abinzhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abinzhao/code-cnalysis/issues"
+  },
+  "homepage": "https://github.com/abinzhao/code-cnalysis#readme",
+  "dependencies": {
+    "@vue/compiler-dom": "^3.2.47",
+    "chalk": "^5.2.0",
+    "glob": "^9.3.0",
+    "js-md5": "^0.7.3",
+    "moment": "^2.29.4",
+    "ora": "^6.1.2",
+    "typescript": "^4.9.5"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 4.0.0"
+  }
+}
