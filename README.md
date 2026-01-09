@@ -117,10 +117,6 @@ async function scan() {
 scan();
 ```
 
-## Demo
-
-[code-demo](https://github.com/liangxin199045/code-demo)演示如何使用 code-analysis-ts 的 demo 项目,使用 github pages 部署代码分析报告
-
 ## scorePlugin 说明
 
 配置文件中的 scorePlugin 配置项属于“函数插件”，使用者可以自定义代码评分插件来消费分析产物，评分插件需要对分析产物数据结构及属性有一定理解。下面是一个 demo:
@@ -172,10 +168,6 @@ module.exports = {
 ## analysisPlugin 说明
 
 自定义分析插件，分析工具内置插件有 type 分析，method 分析，默认 api 分析三个插件，如果开发者有更多分析指标的诉求，可以开发特定分析插件(比如分析 Class 类型的 api，分析用于三目运算符表达式中的 api,分析导入再导出 api 等场景)，开发分析插件需要对源码和分析工具架构及生命周期有一定的理解。
-
-## 自定义插件库
-
-[code-analysis-plugins](https://www.npmjs.com/package/code-analysis-plugins)是与分析工具配套的分析插件库，用于分享一些常用指标分析插件。
 
 ## diagnosisInfos 诊断日志说明
 
